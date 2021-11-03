@@ -8,6 +8,7 @@ metadata:
     backstage.io/kubernetes-id: 'voting-app'
     backstage.io/kubernetes-label-selector: 'servicename=voting-analytics,service=voting'
     github.com/project-slug: 'prabhakarank87/kafka-lag-exporter'
+    grafana/tag-selector: "dash-minikube"
   links:
     - url: https://kafka.example.com
       title: My Dashboard
