@@ -17,5 +17,8 @@ spec:
   lifecycle: experimental
   owner: kafka
   system: kafka
+  dependsOn:
+    - resource:default/artists-db
+    - component:artist-lookup
   providesApis:
     - hello-world
