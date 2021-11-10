@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: kafka-lag-exporter
   description: kafka-lag-exporter
+  tags:
+    - kafka
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=kafka-lag-exporter-voting-frontend,servicename=voting-analytics'
