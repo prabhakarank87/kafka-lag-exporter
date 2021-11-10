@@ -19,6 +19,6 @@ spec:
   system: kafka
   dependsOn:
     - resource:default/artists-db
-    - component:artist-lookup
+    - component:default/artist-lookup
   providesApis:
     - hello-world
