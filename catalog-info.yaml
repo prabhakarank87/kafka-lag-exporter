@@ -17,3 +17,5 @@ spec:
   lifecycle: experimental
   owner: kafka
   system: kafka
+  providesApis:
+    - hello-world
